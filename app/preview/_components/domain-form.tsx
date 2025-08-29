@@ -87,12 +87,12 @@ const DomainForm = ({
           color="primary"
           variant="faded"
           placeholder="domain"
-          className="[&_input]:!px-0"
+          className="[&_input]:!px-0 text-nowrap"
           defaultValue={inputField}
           onChange={(e) => setInputField(e.target.value)}
           startContent={
             <div className="pointer-events-none flex items-center">
-              <span className="text-default-400 text-small">{HOSTNAME}/</span>
+              <span className="text-default-400 text-small">{"https://linky-tree.vercel.app"}/</span>
             </div>
           }
           type="text"
